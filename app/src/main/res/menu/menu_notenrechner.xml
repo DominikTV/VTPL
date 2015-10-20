@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.philipp_mandler.android.vtpl.Notenrechner">
+    <item
+        android:id="@+id/action_info"
+        android:orderInCategory="100"
+        android:title="@string/noten_info"
+        app:showAsAction="never" />
+</menu>

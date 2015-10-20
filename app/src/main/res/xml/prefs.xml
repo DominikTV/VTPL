@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/settings" />
+
+    <!-- Meine Klasse/Mein Kurs -->
+    <EditTextPreference
+        android:hint="@string/myClass_hint"
+        android:imeOptions="actionDone"
+        android:key="myClass"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:summary="@string/myClass_text"
+        android:title="@string/myClass_head" />
+
+    <!--Double Back to Exit-->
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="doubletoexit"
+        android:summary="@string/settings_checkbox_dbte_body"
+        android:title="@string/settings_checkbox_dbte_head" />
+
+    <PreferenceCategory android:title="Über/Informationen" />
+
+    <!-- Version -->
+    <Preference
+        android:key="version"
+        android:summary="@string/version_text"
+        android:title="@string/version" />
+
+    <!--Website-->
+    <Preference
+        android:summary="@string/website_text"
+        android:title="@string/website">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://www.max-eyth-schule.de" />
+    </Preference>
+
+    <!--Bewerten-->
+    <Preference
+        android:summary="@string/rate_text"
+        android:title="@string/rate">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="market://details?id=com.philipp_mandler.android.vtpl" />
+    </Preference>
+
+    <!-- Willkommensnachricht -->
+    <Preference
+        android:key="welcomeMessage"
+        android:summary="@string/welcome_message_text"
+        android:title="@string/welcome_message" />
+
+    <!--Betatester-->
+    <Preference
+        android:key="betatester"
+        android:summary="@string/betatester_text"
+        android:title="@string/betatester_head">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://play.google.com/apps/testing/com.philipp_mandler.android.vtpl" />
+    </Preference>
+
+    <!--Idee/Entwickler-->
+    <Preference
+        android:summary="@string/developer_text"
+        android:title="@string/developer">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://philipp-mandler.com/" />
+    </Preference>
+
+    <!--Weiterentwicklung-->
+    <Preference
+        android:summary="@string/developer2_text"
+        android:title="@string/developer">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://dominiktv.net/" />
+    </Preference>
+
+    <!--Quellcode-->
+    <Preference
+        android:summary="@string/source_code_text"
+        android:title="@string/source_code">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://goo.gl/gAklCJ" />
+    </Preference>
+
+
+</PreferenceScreen>

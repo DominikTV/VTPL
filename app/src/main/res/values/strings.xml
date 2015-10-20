@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VTPL MES</string>
+    <string name="app_title">Vertretungsplan</string>
+    <string name="action_refresh">Aktualisieren</string>
+    <string name="dialog_refresh">Aktualisiere</string>
+    <string name="dialog_please_wait">Bitte warten...</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_overview">Übersicht</string>
+    <string name="title_timetable">Stundenplan</string>
+    <string name="title_supplyplan">Vertretungsplan</string>
+    <string name="arrow_description">Pfeil</string>
+    <string name="toast_plan_updated">Vertretungsplan aktualisiert</string>
+    <string name="toast_plan_update_failed">Aktualisieren fehlgeschlagen, es besteht keine Verbindung zum Internet</string>
+    <string name="toast_plan_update_failed_webdown">Aktualisieren fehlgeschlagen, es besteht keine Verbindung zur Website. \nDas Problem liegt leider außerhalb unserer Möglichkeiten :(</string>
+    <string name="home_toast_dbte">Zum Beenden erneut tippen</string>
+
+    <string name="detail_lesson">Stunde</string>
+    <string name="detail_date">Datum</string>
+    <string name="detail_schoolClass">Kurs</string>
+    <string name="detail_teacher">Lehrer</string>
+    <string name="detail_supplyTeacher">Vertr. Lehrer</string>
+    <string name="detail_room">Raum</string>
+    <string name="detail_supplyRoom">Vertr. Raum</string>
+    <string name="detail_info">Info</string>
+    <string name="weekday_monday">Montag</string>
+    <string name="weekday_tuesday">Dienstag</string>
+    <string name="weekday_wednesday">Mittwoch</string>
+    <string name="weekday_thursday">Donnerstag</string>
+    <string name="weekday_friday">Freitag</string>
+    <string name="weekday_saturday">Samstag</string>
+    <string name="weekday_sunday">Sonntag</string>
+
+    <string name="navDraw_head">VTPL</string>
+    <string name="navDraw_text">Vertretungsplan der MES Kassel</string>
+    <string name="settings_app">App-Einstellungen</string>
+    <string name="news">Mitteilungen</string>
+    <string name="new_news">Neue Nachricht</string>
+    <string name="news_OpenWebsite">Öffne Link</string>
+    <string name="navigation_drawer_open">Öffne Navigation Drawer</string>
+    <string name="navigation_drawer_close">Schließe Navigation Drawer</string>
+    
+    <string name="ks_update_available_head">Neue App verfügbar</string>
+    <string name="ks_update_available_text">Die Schulleitung hat ein neues System zur Verwaltung des Vertretungsplanes eingeführt, was bedeutet, dass diese App <b>bald</b> nicht mehr funktionieren wird.\nDaher wird es eine neue App, direkt vom Entwickler der VTPL-Software, geben. Um den Umstieg so einfach wie möglich zu machen, wird diese App aber noch einige Zeit funktionieren.\nUpdate bitte so bald wie möglich auf neuen App, da diese App ab sofort nicht mehr weiter entwickelt und nach einiger Zeit komplett abgeschaltet wird.\n\nWir hoffen, dass wir dir mit dieser App das Schulleben ein wenig einfacher gestalten konnten :)</string>
+    <string name="ks_update_aviliable_later">Später</string>
+    <string name="ks_update_kill_head">Neue App verfügbar</string>
+    <string name="ks_update_kill_text">Die Schulleitung hat ein neues System zur Verwaltung des Vertretungsplanes eingeführt, was bedeutet, dass diese App <b>ab sofort</b> nicht mehr funktionieren wird.\nDaher wird es eine neue App, direkt vom Entwickler der VTPL-Software, geben.\nUpdate bitte <b>jetzt</b> zur neuen App, da diese App ab sofort nicht mehr weiter entwickelt und nicht mehr richtig funktionieren wird.\n\nWir hoffen, dass wir dir mit dieser App das Schulleben einfacher gestalten konnten :)\n\n(PS: Der Quellcode ist weiterhin gerne einsehbar)</string>
+    <string name="ks_quellcode">Quellcode</string>
+    <string name="ks_update_newApp">Zur neuen App</string>
+
+    <!-- Über / Einstellungen -->
+    <string name="settings">Einstellungen</string>
+    <string name="myClass_head">Meine Klasse / Mein Kurs</string>
+    <string name="myClass_text">Achte auf genaue Schreibweise (Sonderzeichen beachten).\nAlternativ kannst du auch in der Übersicht lange auf eine Klasse tippen.</string>
+    <string name="myClass_hint">Beispiel: 12FOI2 oder Q4–1</string>
+    <string name="settings_checkbox_dbte_head">Bestätigung zum Beenden</string>
+    <string name="settings_checkbox_dbte_body">Aktiviert eine Bestätigung zum Beenden der App (Double Back To Exit)</string>
+    <string name="version">Changelog</string>
+    <string name="version_text">Version 1.5.9.6</string>
+    <string name="changelog">Changelog</string>
+    <string name="website">Website</string>
+    <string name="website_text">Zur Max-Eyth-Schulwebsite</string>
+    <string name="welcome_message">Willkommensnachricht</string>
+    <string name="welcome_message_text">Zeige die Willkommensnachricht an</string>
+    <string name="rate">Bewerten</string>
+    <string name="rate_text">Bewerte die App im Google PlayStore</string>
+    <string name="developer">Entwickler</string>
+    <string name="developer_text">Idee und Entwicklung bis Version 1.0: Philipp Mandler</string>
+    <string name="developer2_text">Entwicklung ab Version 1.0: Dominik Kiepke</string>
+    <string name="source_code">Quellcode</string>
+    <string name="source_code_text">Für Interessierte, zum Quellcode dieser App</string>
+    <string name="betatester_head">Betatester werden</string>
+    <string name="betatester_text">Werde Betatester und erhalte Updates zum testen immer zuerst</string>
+
+
+    <!-- Notenrechner -->
+    <string name="title_activity_notenrechner">Notenrechner</string>
+    <string name="noten_head">Noten- / Punkterechner</string>
+    <string name="noten_input">Erreichter Prozentwert</string>
+    <string name="noten_bg">Berufliches Gymnasium (BG)</string>
+    <string name="noten_bf_fs">Berufschule / \nFachschule</string>
+    <string name="noten_fos">Fachoberschule \n(FOS)</string>
+    <string name="noten_info">Informationen</string>
+    <string name="noten_info_text">Alle Angaben ohne Gewähr!\n\nDer Notenschlüssel für das Berufliche Gymnasium entspricht den Vorgaben der aktuellen VOGO/BG und berücksichtigt die entsprechenden Fehlerindizes gemäß den Anlagen 8 und 9 der VOGO/BG. \n\nDer Notenschlüssel für die Fachoberschule entspricht der Verordnung über die Ausbildung und Abschlussprüfung an Fachoberschulen vom 02. Mai 2001 (ABl. S. 299), zuletzt geändert durch Verordnung vom 23. November 2011 (ABl. S. 905). \n\nDie Notenschlüssel für die anderen Schulformen wurden durch Beschluss der Gesamtkonferenz vom 1. April 2003 verbindlich eingeführt.</string>
+    <string name="noten_ergebnis_clear">Ergebnis:</string>
+    <string name="noten_ergebnis_noten">Deine Note:</string>
+    <string name="noten_ergebnis_punkte">Deine Punktzahl:</string>
+
+    <!-- Ferien -->
+    <string name="title_activity_ferien">Ferien</string>
+    <string name="ferien_api_by_menu">API Info</string>
+    <string name="ferien_api_by_head">API Information</string>
+    <string name="ferien_api_by_text">Angaben für das Bundesland Hessen.\nDie Daten werden bereitgestellt von:\n<u>www.smartnoob.de</u>\n\nAlle Angaben ohne Gewähr!</string>
+    <string name="ferien_error_head">Fehler</string>
+    <string name="ferien_get_data">Lade Daten</string>
+    <string name="ferien_error_text">Ein Fehler ist aufgetreten: Keine Internetverbindung</string>
+
+
+    <!-- First Start -->
+    <string name="first_head">Willkommen</string>
+    <string name="first_text">Herzlich willkommen zur <b>Vertretungsplan-App der Max-Eyth-Schule in Kassel</b>.\n\nMit dieser App kannst du immer den aktuellen Vertretungsplan der MES einsehen. Solltest du mal keine Internet-Verbindung haben, so wird dir der letzte verfügbare Stand angezeigt.\nErfahrungsgemäß wird der Vertretungsplan immer morgens um kurz vor 8 Uhr aktualisiert.\nBitte beachte auch, dass die App nur mit einer deutschen IP funktioniert.\nNun viel Spaß mit der App :)\n\n<i>(PS: Feedback ist gerne erwünscht. Außerdem wird noch ein Entwickler für eine iOS/Windows Phone-Version der App gesucht)</i>\nAlle Angaben in dieser App sind ohne Gewähr!</string>
+    <string name="first_show_later_again">Diese Meldung kannst du dir später nochmal in den Einstellungen anzeigen lassen</string>
+
+    <!-- Außerdem kannst du in der App oben rechts auf das "News"-Icon für aktuelle News rund um die MES einsehen.\n\n -->
+
+
+
+
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_notenrechner"
+            android:icon="@drawable/ic_calculator_black_24dp"
+            android:title="@string/title_activity_notenrechner" />
+        <item
+            android:id="@+id/nav_ferien"
+            android:icon="@drawable/ic_beach_black_24dp"
+            android:title="@string/title_activity_ferien" />
+
+    </group>
+
+    <item android:title="@string/settings_app">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="@string/settings" />
+
+            <item
+                android:id="@+id/nav_sourcecode"
+                android:icon="@drawable/ic_code_black_24dp"
+                android:title="@string/website" />
+        </menu>
+    </item>
+
+    <group
+        android:id="@+id/newsGroup"
+        android:visible="false">
+
+        <item android:title="@string/news">
+            <menu>
+
+                <item
+                    android:id="@+id/nav_news"
+                    android:icon="@drawable/ic_message_black_24dp"
+                    android:title="@string/new_news" />
+            </menu>
+        </item>
+
+    </group>
+
+</menu>

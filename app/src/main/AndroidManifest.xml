@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.philipp_mandler.android.vtpl" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MyController"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PreferenceActivity"
+            android:label="@string/settings"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.philipp_mandler.android.vtpl.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Ferien"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_ferien"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.philipp_mandler.android.vtpl.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Notenrechner"
+            android:label="@string/title_activity_notenrechner"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.philipp_mandler.android.vtpl.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

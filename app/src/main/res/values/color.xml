@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<color name="primary">#3F51B5</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="primary_light">#C5CAE9</color>
+    <color name="accent">#FF5722</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>-->
+
+    <!--<color name="primary">#4775d1</color>
+    <color name="primary_dark">#ff0f3f63</color>
+    <color name="primary_light">#C5CAE9</color>
+    <color name="accent">#1f3d7a</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>-->
+
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#ff0f2759</color>
+    <color name="primary_light">#BBDEFB</color>
+    <color name="list_header">#ff0f4d99</color>
+    <color name="accent">#FF5722</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="listContentBG">#FFFFFF</color>
+
+    <color name="highlight">#64DD17</color>
+
+</resources>

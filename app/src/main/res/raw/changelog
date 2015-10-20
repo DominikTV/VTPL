@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog bulletedList="true">
+
+
+    <changelogversion versionName="1.5.9.6" changeDate="06.10.2015">
+        <changelogtext>Hoffentlich alle Abstürze gefunden...</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="1.5.9.5" changeDate="05.10.2015">
+        <changelogtext>Absturz behoben</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="1.5.9.4" changeDate="04.10.2015">
+        <changelogtext>Bug, der durch unerwartete Änderung auf der Schulwebsite aufgetreten ist, behoben</changelogtext>
+        <changelogtext>Schreibfehler behoben (Danke an Natascha R.)</changelogtext>
+        <changelogtext>Interne Updates</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="1.5.9.3" changeDate="26.09.2015">
+        <changelogtext>Interne Updates</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="1.5.9.2" changeDate="02.09.2015">
+        <changelogtext>Unterstützung für Android 6: Marshmallow (API 23) hinzugefügt</changelogtext>
+        <changelogtext>Kleiner (Schreib-)Fehler behoben</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="1.5.9.1" changeDate="23.08.2015">
+        <changelogtext>Kleinere Updates unter der Haube</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="1.5.9" changeDate="24.07.2015">
+        <changelogtext>[b][font color=red]Neu:[/font][/b] "Double Tab to Exit"-Option hinzugefügt </changelogtext>
+        <changelogtext>[b][font color=red]Neu:[/font][/b] Changelog hinzugefügt</changelogtext>
+        <changelogtext>Designupdates</changelogtext>
+        <changelogtext>Newssystem überarbeitet</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="1.5.8" changeDate="26.06.2015">
+        <changelogtext>Kleinere verbesserungen</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="1.5.7-1" changeDate="22.05.2015">
+        <changelogtext>Kleiner Bug im Notenrechner behoben</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="1.5.7" changeDate="20.05.2015">
+        <changelogtext>[b][font color=red]Neu:[/font][/b] Notenrechner hinzugefügt
+            (Startseite -> Menüknopf oder Punkte oben rechts -> Notenrechner)</changelogtext>
+        <changelogtext>[b]Neu:[/b] Gestern, Heute und Morgen in der Datumsübersicht hinzugefügt</changelogtext>
+        <changelogtext>[b]Neu:[/b] Halte nun lange eine Klasse in der Übersicht gedrückt, um diese zu markieren</changelogtext>
+        <changelogtext>Weitere verbesserungen</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="1.5.6" changeDate="05.05.2015">
+        <changelogtext>[b][font color=red]Neu:[/font][/b] Neues App-Icon</changelogtext>
+        <changelogtext>Problem, bei dem die App abstürzte, wenn der Plan online nicht erreichbar war
+            (wenn dieser zB durch eine VPN geblockt wurde o.ä.), behoben</changelogtext>
+        <changelogtext>Performance Update</changelogtext>
+        <changelogtext>Kleinere Designanpassungen</changelogtext>
+        <changelogtext>Weitere verbesserungen</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="1.5.5" changeDate="20.04.2015">
+        <changelogtext>[b][font color=red]Neu:[/font][/b] "Meine Klasse / Mein Kurs": Markiere deine Klasse/deinen Kurs besonderst in der Übersicht</changelogtext>
+        <changelogtext>Weitere verbesserungen</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="1.5.4" changeDate="13.04.2015">
+        <changelogtext>Weitere verbesserungen</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="1.5.3" changeDate="12.04.2015">
+        <changelogtext>[b]Neu:[/b] Stundenzeit (Von - bis) in der Detailansicht hinzugefügt</changelogtext>
+        <changelogtext>Weitere verbesserungen</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="1.5.2" changeDate="12.04.2015">
+        <changelogtext>[b][font color=red]Neu:[/font][/b] Neues Design (Material Design)</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="1.5.1" changeDate="10.04.2015">
+        <changelogtext>[b][font color=red]Neu:[/font][/b] App nun Open Source (Quellcode öffentlich)</changelogtext>
+        <changelogtext>Bugfixes</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="1.5.0" changeDate="09.04.2015">
+        <changelogtext>[b][font color=red]Neu:[/font][/b] Ferienübersicht hinzugefügt (Menü -> Ferien)</changelogtext>
+        <changelogtext>[b]Neu:[/b] Willkommensnachricht hinzugefügt</changelogtext>
+        <changelogtext>[b]Neu:[/b] Betatestergruppe gestartet</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="1.4.2" changeDate="05.12.2014">
+        <changelogtext>[b]Neu:[/b] Meldung, wenn Vertretungsplan aktualisiert, hinzugefügt</changelogtext>
+        <changelogtext>Absturz behoben, wenn der VTPL nicht erreichbar ist</changelogtext>
+        <changelogtext>Weitere verbesserungen</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="1.4.1" changeDate="20.11.2014">
+        <changelogtext>Bug behoben, bei welchem die App, bei teils schlechter Internetverbindung, abgestürzt ist</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="1.4" changeDate="19.11.2014">
+        <changelogtext>[b]Neu:[/b] Unterstützung für Android Version 5 "Lollipop"</changelogtext>
+        <changelogtext>[b]Neu:[/b] "Über"-Seite hinzugefügt</changelogtext>
+        <changelogtext>Bugfixes</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="1.1" changeDate="09.10.2013">
+        <changelogtext>Bugfixes</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="1.0" changeDate="26.04.2013">
+        <changelogtext>[b]Release![/b] Erste Version im PlayStore</changelogtext>
+    </changelogversion>
+
+
+</changelog>
