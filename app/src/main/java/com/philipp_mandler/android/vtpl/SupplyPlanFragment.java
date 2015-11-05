@@ -12,6 +12,7 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.app.ListFragment;
+import android.support.v4.os.AsyncTaskCompat;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -263,6 +264,8 @@ public class SupplyPlanFragment extends ListFragment {
 
 
     private class GetVtplData extends AsyncTask<String, Void, Document> {
+
+
 
         @Override
         protected void onPreExecute() {

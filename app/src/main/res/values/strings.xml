@@ -35,6 +35,8 @@
     <string name="navDraw_head">VTPL</string>
     <string name="navDraw_text">Vertretungsplan der MES Kassel</string>
     <string name="settings_app">App-Einstellungen</string>
+    <string name="nav_mes_website">MES-Website</string>
+    <string name="nav_submit_bug">Fehler / Ideen melden</string>
     <string name="news">Mitteilungen</string>
     <string name="new_news">Neue Nachricht</string>
     <string name="news_OpenWebsite">Öffne Link</string>

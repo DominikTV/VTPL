@@ -30,7 +30,7 @@ import org.json.JSONObject;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    // Arrow designed by Jardson Ara?jo from The Noun Project
+    //Arrow designed by Jardson Ara?jo from The Noun Project
 
     private final String FIRST_TIME_LAUNCH = "FirstTimeLaunch";
     private final String FIRST_TIME_LAUNCH_Main = "FirstTimeLaunchMain";
@@ -90,6 +90,7 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
+
     @Override
     public void onResume() {
         super.onResume();
@@ -118,10 +119,16 @@ public class MainActivity extends AppCompatActivity
             Intent intent = new Intent(this, PreferenceActivity.class);
             startActivity(intent);
 
-        } else if (id == R.id.nav_sourcecode) {
+        } else if (id == R.id.nav_website) {
             //Source Code
             Intent i = new Intent(Intent.ACTION_VIEW);
             i.setData(Uri.parse("http://goo.gl/gAklCJ"));
+            startActivity(i);
+
+        } else if (id == R.id.nav_bug) {
+            //Bug report
+            Intent i = new Intent(Intent.ACTION_VIEW);
+            i.setData(Uri.parse("https://github.com/DominikTV/VTPL/issues"));
             startActivity(i);
 
         } else if (id == R.id.nav_news) {
@@ -220,7 +227,7 @@ public class MainActivity extends AppCompatActivity
 
     private void killSwitch() {
 
-        String url = "http://dominiktv.net/vtpl/killswitch/update.json";
+        String url = "http://dev.dominiktv.net/vtpl/killswitch/update.json";
 
         JsonObjectRequest jsonObjReq = new JsonObjectRequest(url,
                 new Response.Listener<JSONObject>() {
@@ -319,7 +326,7 @@ public class MainActivity extends AppCompatActivity
     private void news() {
 
 
-        String url = "http://dominiktv.net/vtpl/news/news_v2.json";
+        String url = "http://dev.dominiktv.net/vtpl/news/news.json";
 
         JsonObjectRequest jsonObjReq = new JsonObjectRequest(url,
                 new Response.Listener<JSONObject>() {
