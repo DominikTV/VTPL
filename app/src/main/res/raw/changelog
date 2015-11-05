@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog bulletedList="true">
 
+    <changelogversion versionName="1.5.9.7" changeDate="05.11.2015">
+        <changelogtext>Update am Navigation Drawer</changelogtext>
+        <changelogtext>Interne Updates</changelogtext>
+        </changelogversion>
 
     <changelogversion versionName="1.5.9.6" changeDate="06.10.2015">
         <changelogtext>Hoffentlich alle Abstürze gefunden...</changelogtext>
