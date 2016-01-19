@@ -34,9 +34,9 @@ public class Ferien extends AppCompatActivity {
     private static final String TAG = Ferien.class.getSimpleName();
     private Toolbar toolbar;
     // json object response url
-    private String urlJsonObj = "http://api.smartnoob.de/ferien/v1/ferien/?bundesland=he";
+    private String urlJsonObj = "https://api.smartnoob.de/ferien/v1/ferien/?bundesland=he&jahr=";
     //private String urlDominikTVAPI_FerienHe = "http://dominiktv.net/vtpl/ferien/ferien_he.json";
-    private String urlJsonObj2 = "http://api.smartnoob.de/ferien/v1/ferien/?bundesland=he";
+    private String urlJsonObj2 = "https://api.smartnoob.de/ferien/v1/ferien/?bundesland=he&jahr=";
     // Progress dialog
     private ProgressDialog pDialog;
 
@@ -76,9 +76,9 @@ public class Ferien extends AppCompatActivity {
         int jahr1 = c.get(Calendar.YEAR);
         int jahr2 = jahr1 + 1;
 
-        urlJsonObj = "http://api.smartnoob.de/ferien/v1/ferien/?bundesland=he&jahr=" + jahr1;
+        urlJsonObj = urlJsonObj + jahr1;
 
-        urlJsonObj2 = "http://api.smartnoob.de/ferien/v1/ferien/?bundesland=he&jahr=" + jahr2;
+        urlJsonObj2 = urlJsonObj2 + jahr2;
 
         makeJsonObjectRequest();
 

@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog bulletedList="true">
 
-    <changelogversion versionName="1.5.9.7" changeDate="05.11.2015">
+    <changelogversion versionName="1.5.9.9" changeDate="19.01.2016">
+        <changelogtext>API Abfragen für Ferien nun Verschlüsselt</changelogtext>
+        <changelogtext>Interne Updates</changelogtext>
+    </changelogversion>
+
+    <changelogversion versionName="1.5.9.8" changeDate="12.11.2015">
         <changelogtext>Update am Navigation Drawer</changelogtext>
         <changelogtext>Interne Updates</changelogtext>
-        </changelogversion>
+    </changelogversion>
 
     <changelogversion versionName="1.5.9.6" changeDate="06.10.2015">
         <changelogtext>Hoffentlich alle Abstürze gefunden...</changelogtext>

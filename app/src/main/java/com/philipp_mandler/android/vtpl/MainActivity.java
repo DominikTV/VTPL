@@ -32,8 +32,12 @@ public class MainActivity extends AppCompatActivity
 
     //Arrow designed by Jardson Ara?jo from The Noun Project
 
+    //Static String
     private final String FIRST_TIME_LAUNCH = "FirstTimeLaunch";
     private final String FIRST_TIME_LAUNCH_Main = "FirstTimeLaunchMain";
+    //URLs
+    private String newsURL = "https://dev.dominiktv.net/vtpl/news/news.json";
+    private String killSwitchUrl = "https://dev.dominiktv.net/vtpl/killswitch/update.json";
     private Toolbar toolbar;
 
     //News
@@ -227,9 +231,7 @@ public class MainActivity extends AppCompatActivity
 
     private void killSwitch() {
 
-        String url = "http://dev.dominiktv.net/vtpl/killswitch/update.json";
-
-        JsonObjectRequest jsonObjReq = new JsonObjectRequest(url,
+        JsonObjectRequest jsonObjReq = new JsonObjectRequest(killSwitchUrl,
                 new Response.Listener<JSONObject>() {
 
                     @Override
@@ -325,10 +327,7 @@ public class MainActivity extends AppCompatActivity
 
     private void news() {
 
-
-        String url = "http://dev.dominiktv.net/vtpl/news/news.json";
-
-        JsonObjectRequest jsonObjReq = new JsonObjectRequest(url,
+        JsonObjectRequest jsonObjReq = new JsonObjectRequest(newsURL,
                 new Response.Listener<JSONObject>() {
 
                     @Override
@@ -371,6 +370,54 @@ public class MainActivity extends AppCompatActivity
         MyController.getInstance().addToRequestQueue(jsonObjReq);
 
     }
+
+    /*
+    private void update() {
+
+        JsonObjectRequest jsonObjReq = new JsonObjectRequest(updateURL,
+                new Response.Listener<JSONObject>() {
+
+                    @Override
+                    public void onResponse(JSONObject response) {
+                        Log.d("NEWS", response.toString());
+
+                        try {
+                            // Getting JSON Array from URL
+
+                            //News verfügbar
+                            if (response.getBoolean("newsAvailable")) {
+
+
+                                newsTextHead = response.getString("newsHead");
+                                newsTextText = response.getString("newsText");
+                                newsUrl = response.getString("newsUrl");
+
+                                setNewsIconVisible();
+
+                            } else {
+                                setNewsIconInvisible();
+                            }
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                            setNewsIconInvisible();
+                        }
+
+                    }
+                }, new Response.ErrorListener() {
+
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                VolleyLog.d("NEWS " + error.getMessage(), "Error: " + error.getMessage());
+                setNewsIconInvisible();
+            }
+        });
+
+
+        // Adding request to request queue
+        MyController.getInstance().addToRequestQueue(jsonObjReq);
+
+    }
+    */
 
     private void setNewsIconInvisible() {
         navigationView.getMenu().setGroupVisible(R.id.newsGroup, false);

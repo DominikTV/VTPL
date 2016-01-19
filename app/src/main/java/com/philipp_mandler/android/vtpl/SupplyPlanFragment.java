@@ -574,8 +574,11 @@ public class SupplyPlanFragment extends ListFragment {
                             SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(getActivity());
                             prefs.edit().remove("myClass").apply();
 
-                            GetVtplData dataRequest = new GetVtplData();
-                            dataRequest.execute("http://www.fricke-consult.de/php/MES_VertretungsplanL.php");
+                            m_inflater.notify();
+                            m_vtplEntries.notify();
+
+                            //GetVtplData dataRequest = new GetVtplData();
+                            //dataRequest.execute("http://www.fricke-consult.de/php/MES_VertretungsplanL.php");
 
                         }
                     })
