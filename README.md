@@ -10,3 +10,4 @@
 - [x] Notenrechner
 - [x] Ferienliste
 - [ ] Push-Nachrichten
+- [ ] Bessere API (jmd. Lust, was zu schreiben?)
