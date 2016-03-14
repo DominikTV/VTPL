@@ -8,8 +8,8 @@ android {
         applicationId "com.philipp_mandler.android.vtpl"
         minSdkVersion 14
         targetSdkVersion 23
-        versionCode 1599
-        versionName "1.5.9.9"
+        versionCode 1601
+        versionName "1.6.0.1"
     }
     buildTypes {
         release {

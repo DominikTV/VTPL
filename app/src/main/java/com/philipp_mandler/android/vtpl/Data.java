@@ -4,4 +4,5 @@ public class Data {
 
 	public static boolean updated = false;
 	public static boolean later = false;
+	public static boolean newsWichtigGelsesen = false;
 }

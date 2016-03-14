@@ -316,13 +316,13 @@ public class SupplyPlanFragment extends ListFragment {
 
                             String lastSchoolClass = "-";
                             String lastLesson = "";
-                            int i = 0;
+                            //int i = 0;
                             for (Element element : elements) {
                                 Elements tdElements = element.select("td");
                                 Element data;
 
-                                i++;
-                                Log.i("Anzahl", "" + i);
+                                //i++;
+                                //Log.i("Anzahl", "" + i);
 
                                 VtplEntry entry = new VtplEntry();
                                 // parse day
@@ -574,11 +574,8 @@ public class SupplyPlanFragment extends ListFragment {
                             SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(getActivity());
                             prefs.edit().remove("myClass").apply();
 
-                            m_inflater.notify();
-                            m_vtplEntries.notify();
-
-                            //GetVtplData dataRequest = new GetVtplData();
-                            //dataRequest.execute("http://www.fricke-consult.de/php/MES_VertretungsplanL.php");
+                            GetVtplData dataRequest = new GetVtplData();
+                            dataRequest.execute("http://www.fricke-consult.de/php/MES_VertretungsplanL.php");
 
                         }
                     })

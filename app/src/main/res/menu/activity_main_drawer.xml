@@ -26,10 +26,13 @@
                 android:title="@string/nav_mes_website" />
 
             <item
+                android:id="@+id/nav_cafeteria"
+                android:icon="@drawable/ic_free_breakfast_black_24dp"
+                android:title="@string/nav_cafeteria" />
+            <item
                 android:id="@+id/nav_bug"
                 android:icon="@drawable/ic_bug_report_black_24dp"
-                android:title="@string/nav_submit_bug"
-                />
+                android:title="@string/nav_submit_bug" />
         </menu>
     </item>
 

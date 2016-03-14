@@ -36,8 +36,8 @@ public class MainActivity extends AppCompatActivity
     private final String FIRST_TIME_LAUNCH = "FirstTimeLaunch";
     private final String FIRST_TIME_LAUNCH_Main = "FirstTimeLaunchMain";
     //URLs
-    private String newsURL = "https://dev.dominiktv.net/vtpl/news/news.json";
-    private String killSwitchUrl = "https://dev.dominiktv.net/vtpl/killswitch/update.json";
+    private String newsLink = "https://dev.dominiktv.net/vtpl/news/news.json";
+    //private String killSwitchUrl = "https://dev.dominiktv.net/vtpl/killswitch/update.json";
     private Toolbar toolbar;
 
     //News
@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity
         setupNavDrawer();
 
         //Stuff
-        killSwitch();
+        //killSwitch();
         news();
     }
 
@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity
     @Override
     public void onResume() {
         super.onResume();
-        killSwitch();
+        //killSwitch();
         news();
     }
 
@@ -127,6 +127,12 @@ public class MainActivity extends AppCompatActivity
             //Source Code
             Intent i = new Intent(Intent.ACTION_VIEW);
             i.setData(Uri.parse("http://goo.gl/gAklCJ"));
+            startActivity(i);
+
+        } else if (id == R.id.nav_cafeteria) {
+            //Source Code
+            Intent i = new Intent(Intent.ACTION_VIEW);
+            i.setData(Uri.parse("http://www.mes-ks.net/schueler-eltern/cafeteria/"));
             startActivity(i);
 
         } else if (id == R.id.nav_bug) {
@@ -228,7 +234,7 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
-
+/*
     private void killSwitch() {
 
         JsonObjectRequest jsonObjReq = new JsonObjectRequest(killSwitchUrl,
@@ -324,10 +330,11 @@ public class MainActivity extends AppCompatActivity
         // Adding request to request queue
         MyController.getInstance().addToRequestQueue(jsonObjReq);
     }
+    */
 
     private void news() {
 
-        JsonObjectRequest jsonObjReq = new JsonObjectRequest(newsURL,
+        JsonObjectRequest jsonObjReq = new JsonObjectRequest(newsLink,
                 new Response.Listener<JSONObject>() {
 
                     @Override
@@ -340,12 +347,31 @@ public class MainActivity extends AppCompatActivity
                             //News verfügbar
                             if (response.getBoolean("newsAvailable")) {
 
-
                                 newsTextHead = response.getString("newsHead");
                                 newsTextText = response.getString("newsText");
                                 newsUrl = response.getString("newsUrl");
 
                                 setNewsIconVisible();
+
+                                if (response.getBoolean("newsWichtig") && !Data.newsWichtigGelsesen) {
+
+                                    Data.newsWichtigGelsesen = true;
+
+                                    new AlertDialog.Builder(MainActivity.this)
+                                            .setTitle(R.string.news_wichtig_head)
+                                            .setMessage(R.string.news_wichtig_text)
+                                            .setCancelable(false)
+                                            .setNeutralButton(android.R.string.ok, new DialogInterface.OnClickListener() {
+                                                @Override
+                                                public void onClick(DialogInterface dialog, int which) {
+                                                    //OK
+                                                    drawer.openDrawer(GravityCompat.START);
+
+                                                }
+                                            })
+                                            .show();
+
+                                }
 
                             } else {
                                 setNewsIconInvisible();

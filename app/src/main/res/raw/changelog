@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog bulletedList="true">
 
+    <changelogversion versionName="1.6.0.1" changeDate="14.03.2016">
+        <changelogtext>[b][font color=red]Neu:[/font][/b] Link zur Cafeteria-Seite hinzugefügt</changelogtext>
+        <changelogtext>Absturz im Markierungssystem behoben</changelogtext>
+    </changelogversion>
+
     <changelogversion versionName="1.5.9.9" changeDate="19.01.2016">
         <changelogtext>API Abfragen für Ferien nun Verschlüsselt</changelogtext>
         <changelogtext>Interne Updates</changelogtext>
