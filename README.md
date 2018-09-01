@@ -1,5 +1,7 @@
 # VTPL
-*Vertretungsplan der Max-Eyth-Schule in Kassel - Entwickelt von [Philipp Mandler](http://philipp-mandler.com/) und [Dominik Kiepke](https://www.dominiktv.net) (aktuell)*
+*Vertretungsplan der Max-Eyth-Schule in Kassel - Entwickelt von [Philipp Mandler](http://philipp-mandler.com/) und [Dominik Kiepke](https://www.dominiktv.net)*
+
+Entwicklung eingestellt!
 
 *Entwickelt mit Android Studio*
 
